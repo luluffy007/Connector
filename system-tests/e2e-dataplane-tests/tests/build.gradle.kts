@@ -38,6 +38,8 @@ dependencies {
     testImplementation(project(":core:common:lib:crypto-common-lib"))
 
     testCompileOnly(project(":system-tests:e2e-dataplane-tests:runtimes:data-plane"))
+    testCompileOnly(project(":system-tests:e2e-dataplane-tests:runtimes:control-plane"))
+    testCompileOnly(project(":system-tests:e2e-dataplane-tests:runtimes:selector-plane"))
 }
 
 edcBuild {
